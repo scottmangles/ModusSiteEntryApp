@@ -15,7 +15,7 @@ class SiteInductionController extends Controller
      */
     public function index()
     {
-        //
+        return view('site_inductions.index');
     }
 
     /**
@@ -25,7 +25,7 @@ class SiteInductionController extends Controller
      */
     public function create()
     {
-        //
+        return view('site_inductions.create');
     }
 
     /**
